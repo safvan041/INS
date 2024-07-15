@@ -36,7 +36,7 @@ def frequency_analysis_attack(ciphertext):
     return potential_plaintexts
 
 # Example ciphertext (encrypted with a shift of 3)
-ciphertext = "KHOOR ZRUOG"  # "HELLO WORLD"
+ciphertext = "DWWDFN DW RQFH"  # "HELLO WORLD"
 
 # Perform the frequency analysis attack
 potential_plaintexts = frequency_analysis_attack(ciphertext)

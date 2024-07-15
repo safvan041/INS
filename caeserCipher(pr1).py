@@ -12,7 +12,7 @@ def encrypt(msg,key):
 	return result
 
 msg = "ATTACKATONCE"
-key = 4
+key = 3
 print ("Text : " + msg)
 print ("Shift : " + str(key))
 print ("Cipher: " + encrypt(msg,key))
