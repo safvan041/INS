@@ -7,7 +7,7 @@ def mod_inverse(a, m):
             return x
     return None
 
-# Function to find the inverse of the key matrix in modulo 26
+
 def matrix_mod_inv(matrix, modulus):
     det = int(np.round(np.linalg.det(matrix)))  # Determinant of the matrix
     det_inv = mod_inverse(det % modulus, modulus)  # Multiplicative inverse of the determinant
